@@ -6,7 +6,12 @@ namespace _4._1_Mod_Pract
     {
         static void Main(string[] args)
         {
-            
+            string C;
+
+            string D;
+
+            bool E = C != D;
+                     
             int A = 4;
 
             int B = 6;
