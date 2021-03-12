@@ -6,11 +6,13 @@ namespace _4._1_Mod_Pract
     {
         static void Main(string[] args)
         {
-            string C;
+            byte C = 1;
 
-            string D;
+            byte D = 2;
 
-            bool E = C != D;
+            bool CisnotEqualD = C != D;
+
+            Console.WriteLine("C isn't equal D > {0}", CisnotEqualD);
                      
             int A = 4;
 
@@ -20,6 +22,24 @@ namespace _4._1_Mod_Pract
 
             Console.WriteLine("A is equal B > {0}", isAEqualB);
 
+            int F = 78;
+
+            int G = 80;
+
+            double H = 60.0;
+
+            double I = 40.0;
+
+            bool result = 
+                
+            (F < G)
+
+            ||
+
+            (H > I);
+
+            Console.WriteLine("Both results are > {0}", result); 
+            
             Console.ReadKey();
         }
     }
