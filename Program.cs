@@ -50,6 +50,12 @@ namespace _4._1_Mod_Pract
 
             Console.WriteLine("Results are > {0}", resultA1B2);
 
+            var inv = true;
+            
+            var resultinv = !inv;
+
+            Console.WriteLine("{0}", resultinv);
+
             Console.ReadKey();
 
         }
