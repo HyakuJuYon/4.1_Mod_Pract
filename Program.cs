@@ -56,6 +56,22 @@ namespace _4._1_Mod_Pract
 
             Console.WriteLine("{0}", resultinv);
 
+            var a = 6;
+           
+            var b = 7;
+
+            if (a < b)
+            
+            {
+                Console.WriteLine("The statement is true");
+            }
+               
+                else
+            
+            {
+                Console.WriteLine("The statement is false");
+            }
+
             Console.ReadKey();
 
         }
