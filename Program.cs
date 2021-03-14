@@ -86,7 +86,7 @@ namespace _4._1_Mod_Pract
 
                     Console.WriteLine("Your fav color is red!");
                     
-                    break;
+                break;
 
                 case "green":
                     
@@ -96,17 +96,28 @@ namespace _4._1_Mod_Pract
 
                     Console.WriteLine("Your fav color is green!");
                     
-                    break;
+                break;
 
-                default:
-                    
+                case "cyan":
+
                     Console.BackgroundColor = ConsoleColor.Cyan;
-                    
+
                     Console.ForegroundColor = ConsoleColor.Black;
 
                     Console.WriteLine("Your fav color is cyan!");
+
+                break;
+
+                default:
+
+                    Console.BackgroundColor = ConsoleColor.Yellow;
+
+                    Console.ForegroundColor = ConsoleColor.Red;
+
+                    Console.WriteLine("You didn't pick up the color!");
                     
-                    break;
+                break;
+
             }
 
             Console.ReadKey();
